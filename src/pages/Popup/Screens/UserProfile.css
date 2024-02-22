@@ -1,0 +1,107 @@
+.user-profile-container {
+    position: relative;
+    z-index: 0;
+    background-color: #1F2937;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.user-profile-container.hidden {
+    transform: translateY(50%);
+}
+
+.User-Profile {
+    margin-top: -30px;
+    border: 2px solid #ffffff;
+    box-shadow: none;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    margin-left: -200px;
+    margin-bottom: 45px;
+    padding: none;
+}
+
+.user-header {
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    margin-top: -102px;
+    height: 60px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.user-location {
+    position: relative;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -82px;
+}
+
+.user-email {
+    position: relative;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+.user-summary h1 {
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 30px;
+}
+
+.user-summary {
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.user-summary-edit {
+    background-color: #F7FFF6;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.summary-save,
+.summary-edit {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #d8bfd8;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 80px;
+    margin-left: 60%;
+}
+
+.summary-save:active,
+.summary-edit:active {
+    background-color: #de95de;
+}
+
+
+.edit-profile-icon {
+    position: relative;
+    margin-left: 220px;
+    padding: none;
+    margin-top: 100%;
+}

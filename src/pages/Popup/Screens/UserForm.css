@@ -1,0 +1,67 @@
+/* BadgeRequest.css */
+.container {
+    background-color: #0F172A;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-container {
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input-field {
+    background-color: #F7FFF6;
+    border-radius: 3px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-save {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #d8bfd8;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button-reset {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #d8bfd8;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.resume {
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.home-icons {
+    margin-right: 30px;
+}
+
+.button-save:active,
+.button-reset:active {
+    background-color: #de95de;
+
+}

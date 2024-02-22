@@ -1,8 +1,7 @@
 {
-  "name": "chrome-extension-boilerplate-react",
+  "name": "Metaintro Wallet",
   "version": "5.0.4",
-  "description": "A chrome extension boilerplate built with React 18, Webpack 5, and Webpack Dev Server 4",
-  "license": "MIT",
+  "description": "Resume Wallet",
   "repository": {
     "type": "git",
     "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
@@ -13,8 +12,13 @@
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2",
+    "react-switch": "^7.0.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",

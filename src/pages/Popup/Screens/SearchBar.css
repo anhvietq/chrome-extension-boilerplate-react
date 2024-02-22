@@ -1,0 +1,38 @@
+.SearchBar {
+    margin-top: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.SearchBar input {
+    width: 98%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #D7DBF1;
+}
+
+.SearchBar ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 100%;
+    margin-top: 0;
+    padding: 0;
+    background-color: #D7DBF1;
+    border: none;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    list-style: none;
+    width: 103.5%;
+}
+
+.SearchBar li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.SearchBar li:hover {
+    background-color: #bfc6ee;
+}

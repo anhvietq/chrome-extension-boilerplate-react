@@ -1,0 +1,76 @@
+.container {
+    background-color: #0F172A;
+    color: white;
+    border-radius: 5px;
+}
+
+.separator {
+    border-top: 1px solid white;
+    margin: 20px 0;
+}
+
+.university-container {
+    background-color: #0F172A;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.university-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    background-color: #F7FFF6;
+    border-radius: 3px;
+    border: none;
+    border-radius: 10px;
+    width: 300%;
+
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #d8bfd8;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.home-icons {
+    margin-right: 30px;
+}
+
+.button:active {
+    background-color: #de95de;
+
+}
+
+.thank-you h1 {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.thank-you h2,
+h3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
